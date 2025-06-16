@@ -27,6 +27,7 @@
 </head>
 <body>
 <h1>All Enrollments</h1>
+<a href="/enrollments/create">Add Enrollment</a>
 
 @if (enrollments.isEmpty())
     <p>No enrollments found in the database.</p>

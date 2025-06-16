@@ -20,4 +20,24 @@ public class Enrollment {
     @ManyToOne
     @JoinColumn(name = "course_id")
     public Course course;
+
+    public Long getId() {
+        return id;
+    }
+
+    public Student getStudent() {
+        return student;
+    }
+
+    public void setStudent(Student student) {
+        this.student = student;
+    }
+
+    public Course getCourse() {
+        return course;
+    }
+
+    public void setCourse(Course course) {
+        this.course = course;
+    }
 }
